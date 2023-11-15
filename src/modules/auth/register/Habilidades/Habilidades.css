@@ -1,0 +1,44 @@
+.white-container {
+    align-items: center;
+    align-content: center;
+    height: 60%;
+}
+
+.grid-row {
+    display: grid;
+    width: 100%;
+    align-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content;
+}
+
+.habilidade-title-text {
+    font-size: 16px;
+    color: #721764;
+}
+
+.grid-row-hard {
+    align-items: stretch;
+    align-content: stretch;
+}
+.grid-row-soft {
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.skills-title {
+    color: #721764;
+    font-size: 90%;
+    text-decoration-line: underline;
+}
+
+.btn-finalizar-cad {
+    background-color: transparent;
+    border-style: none;
+}
+
+.btn-finalizar-cad-link {
+    color: #721764;
+    font-weight: 600;
+    text-decoration-line: none;
+}
